@@ -237,5 +237,26 @@ section.sponsor {
 .sponsor-center > address {
     font-family: sans-serif;
 }
+/************** FINE SECTION SPONSOR *******/
 
+/************** SECTION BG BLUE *******/
+section.bg-lblue {
+    background-color: #B4D0E7;
+}
 
+.bg-lblue > div {
+    padding: 5rem 0;
+}
+/**************FINE SECTION BG BLUE *******/
+
+/************** SECTION QUESTION *******/
+section.question h2 {
+    padding: 5rem 0;
+}
+
+section.question > div {
+    padding: 3rem 0;
+}
+/************** FINE SECTION QUESTION *******/
+
+/************** SECTION QUESTION *******/
