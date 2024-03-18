@@ -188,5 +188,15 @@ section.business {
     padding: 2rem 0;
 }
 
+.dropbox-business h3 {
+    padding: 1.5rem 0;
+}
+
+.dropbox-business-bottom h2 {
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+    padding-right: 20rem;
+}
+
 
 
