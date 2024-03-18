@@ -39,7 +39,11 @@ body {
 
 .debug .header,
 .debug .nav-left,
-.debug .nav-right {
+.debug .nav-right,
+.debug .jumbotron,
+.debug .column-right,
+.debug .column-left,
+.debug h1 {
     border: 2px dashed black;
 }
 
@@ -57,3 +61,35 @@ body {
     color: gray;
     padding: 1rem;
 }
+
+/***************** MAIN *************/
+section.jumbotron {
+    background-color: #B4D0E7;
+}
+
+.jumbotron .column-left {
+    width: 40%;
+}
+
+.jumbotron .column-right {
+    width: 60%;
+}
+
+.jumbotron h1 {
+    padding: 2rem 0;
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+.jumbotron p {
+    padding: 1rem 0;
+}
+
+.jumbotron a {
+    text-decoration: none;
+    color: white;
+    background-color: #0061FF;
+    padding: 0.5rem;
+}
+
+
