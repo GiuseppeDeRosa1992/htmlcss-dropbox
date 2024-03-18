@@ -59,7 +59,14 @@ h2 {
 
 .f-wrap {
     flex-wrap: wrap;
+}
+
+.gap {
     gap: 2rem;
+}
+
+.bg-lgray {
+    background-color: #F5F5F5;
 }
 
 .debug .header,
@@ -74,7 +81,12 @@ h2 {
 .debug .team,
 .debug .azienda,
 .debug .enterprise,
-.debug .dashed {
+.debug .dashed,
+.debug .sponsor-left,
+.debug .sponsor-center,
+.debug .sponsor-right,
+.debug .sponsor-left > div,
+.debug .sponsor-right > div {
     border: 2px dashed black;
 }
 
@@ -182,7 +194,6 @@ section.business {
 /************** FINE SECTION PARTNER *********/
 
 /************** SECTION DROPBOX BUSINESS *******/
-
 .dropbox-business > .flex > div {
     width: calc(100% / 3 - 2rem);
     padding: 2rem 0;
@@ -197,6 +208,34 @@ section.business {
     padding-bottom: 3rem;
     padding-right: 20rem;
 }
+/************** FINE SECTION DROPBOX BUSINESS *******/
 
+/************** SECTION SPONSOR *******/
+section.sponsor {
+    padding-top: 5rem;
+}
+
+.sponsor-center {
+    width: 50%;
+    padding: 2rem;
+}
+
+.sponsor-left,
+.sponsor-right {
+    width: 25%;
+}
+
+.sponsor-left > div,
+.sponsor-right > div {
+    width: calc(100% / 2);
+}
+
+.sponsor-center > p {
+    padding: 2rem 0;
+}
+
+.sponsor-center > address {
+    font-family: sans-serif;
+}
 
 
