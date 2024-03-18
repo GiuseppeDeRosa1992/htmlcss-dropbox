@@ -84,6 +84,7 @@ body {
 }
 
 /***************** MAIN *************/
+/************ SECTION JUMBO ***********/
 section.jumbotron {
     background-color: #B4D0E7;
     padding-top: 2rem;
@@ -117,7 +118,9 @@ section.business {
     background-color: #0061FF;
     padding: 0.5rem;
 }
+/************** FINE SECTION JUMBO *********/
 
+/*************** SECTION BUSINES/BUSINES CONTENT ************/
 .business h2 {
     font-size: 2rem;
     padding-bottom: 2rem;
@@ -144,3 +147,29 @@ section.business {
 .enterprise-content h5 {
     padding: 1.5rem 1rem;
 }
+/************** FINE SECTION BUSINESS **********/
+
+/************* SECTION PARTNER *************/
+.partner {
+    padding: 3rem 0;
+}
+
+.partner .column-left {
+    width: 60%;
+}
+
+.partner .column-right {
+    width: 40%;
+    padding: 1rem;
+}
+
+.column-right > p {
+    padding: 2rem 0;
+}
+
+.column-right > button {
+    padding: 1rem;
+}
+
+
+
