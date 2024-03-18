@@ -24,3 +24,36 @@ body {
 .container-900 {
     width: 900px;
 }
+
+.flex {
+    display: flex;
+}
+
+.jc-between {
+    justify-content: space-between;
+}
+
+.ai-center {
+    align-items: center;
+}
+
+.debug .header,
+.debug .nav-left,
+.debug .nav-right {
+    border: 2px dashed black;
+}
+
+/************** CSS HEADER **************/
+.header {
+    padding: 1rem 0;
+}
+
+.header ul {
+    list-style-type: none;
+}
+
+.header a {
+    text-decoration: none;
+    color: gray;
+    padding: 1rem;
+}
