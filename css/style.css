@@ -244,7 +244,18 @@ section.bg-lblue {
 }
 
 .bg-lblue > div {
-    padding: 5rem 0;
+    padding: 8rem 0;
+}
+
+.bg-lblue h2 {
+    width: 50%;
+    color: #69082B;
+    font-size: 2.3rem;
+}
+
+.bg-lblue button {
+    padding: 0.7rem 3rem;
+    align-self: flex-start;
 }
 /**************FINE SECTION BG BLUE *******/
 
