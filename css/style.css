@@ -69,6 +69,38 @@ h2 {
     background-color: #F5F5F5;
 }
 
+.bg-green {
+    background-color: #A2D39B;
+}
+
+.bg-magenta {
+    background-color: #61082B;
+}
+
+.bg-dodger {
+    background-color: #0093CE;
+}
+
+.bg-red {
+    background-color: #D5001F;
+}
+
+.bg-l-blue {
+    background-color: #B4D0E7;;
+}
+
+.bg-blue {
+    background-color: #0D2481;
+}
+
+.bg-yellow {
+    background-color: #FFD830;
+}
+
+.h-250 {
+    height: 250px;
+}
+
 .debug .header,
 .debug .nav-left,
 .debug .nav-right,
@@ -80,12 +112,7 @@ h2 {
 .debug .team,
 .debug .azienda,
 .debug .enterprise,
-.debug .dashed,
-.debug .sponsor-left,
-.debug .sponsor-center,
-.debug .sponsor-right,
-.debug .sponsor-left > div,
-.debug .sponsor-right > div {
+.debug .dashed {
     border: 2px dashed black;
 }
 
@@ -215,13 +242,13 @@ section.sponsor {
 }
 
 .sponsor-center {
-    width: 50%;
+    width: 40%;
     padding: 2rem;
 }
 
 .sponsor-left,
 .sponsor-right {
-    width: 25%;
+    width: 30%;
 }
 
 .sponsor-left > div,
@@ -229,12 +256,30 @@ section.sponsor {
     width: calc(100% / 2);
 }
 
-.sponsor-center > p {
-    padding: 2rem 0;
+.sponsor .sponsor-left img,
+.sponsor .sponsor-right img {
+    width: 100%;
+    height: 100%;
+    padding: 0 2rem;
+    filter: invert(1);
+}
+
+img#u-florida {
+    padding: 7rem 1rem;
+}
+
+.sponsor-center img {
+    width: 250px;
+}
+
+.sponsor-center > hr {
+    margin: 2rem 0;
+    width: 20%;
 }
 
 .sponsor-center > address {
     font-family: sans-serif;
+    padding: 2rem 0;
 }
 /************** FINE SECTION SPONSOR *******/
 
