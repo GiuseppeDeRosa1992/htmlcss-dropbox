@@ -270,15 +270,37 @@ footer {
     padding: 5rem 0;
 }
 
-footer ul {
+.footer-top ul {
     list-style-type: none;
 }
 
-footer a {
+.footer-top a {
     text-decoration: none;
     color: white;
+    font-size: 1.2rem;
 }
 
-footer li {
+.footer-top li {
     padding: 1rem 0;
+}
+
+.footer-top h4 {
+    font-size: 1.5rem;
+}
+
+.footer-top {
+    padding-bottom: 5rem;
+}
+
+footer hr {
+    width: 10%;
+    position: relative;
+    left: 17rem;
+}
+
+.footer-bottom > select {
+    background-color: black;
+    color: white;
+    border: none;
+    margin-top: 3rem;
 }
