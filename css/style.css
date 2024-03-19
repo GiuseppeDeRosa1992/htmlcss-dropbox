@@ -75,7 +75,6 @@ h2 {
 .debug .column-right,
 .debug .column-left,
 .debug h1,
-.debug section,
 .debug .business-content,
 .debug .singolo,
 .debug .team,
@@ -260,6 +259,19 @@ section.question h2 {
 
 section.question > div {
     padding: 3rem 0;
+}
+
+section.question .d-none {
+    display: none;
+}
+
+.hover:hover .d-none {
+    display: block;
+    padding-top: 2rem;
+}
+
+.hover:hover i {
+    transform: rotate(0.5turn);
 }
 /************** FINE SECTION QUESTION *******/
 
