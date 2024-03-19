@@ -111,8 +111,7 @@ h2 {
 .debug .singolo,
 .debug .team,
 .debug .azienda,
-.debug .enterprise,
-.debug .dashed {
+.debug .enterprise {
     border: 2px dashed black;
 }
 
@@ -223,6 +222,10 @@ section.business {
 .dropbox-business > .flex > div {
     width: calc(100% / 3 - 2rem);
     padding: 2rem 0;
+}
+
+.dropbox-business img {
+    width: 100%;
 }
 
 .dropbox-business h3 {
