@@ -104,8 +104,8 @@ h2 {
 .debug .header,
 .debug .nav-left,
 .debug .nav-right,
-.debug .column-right,
-.debug .column-left,
+.debug .jumbotron .column-right,
+.debug .jumbotron .column-left,
 .debug h1,
 .debug .business-content,
 .debug .singolo,
@@ -200,21 +200,32 @@ section.business {
     padding: 3rem 0;
 }
 
+.partner img {
+    width: 100%;
+    height: 100%;
+}
+
 .partner .column-left {
     width: 60%;
 }
 
 .partner .column-right {
     width: 40%;
-    padding: 1rem;
+    padding: 3rem;
+}
+
+.column-right > h3 {
+    line-height: 1.5rem;
 }
 
 .column-right > p {
     padding: 2rem 0;
+    line-height: 1.3rem;
+    font-size: 0.9rem;
 }
 
 .column-right > button {
-    padding: 1rem;
+    padding: 0.5rem 1rem;
 }
 /************** FINE SECTION PARTNER *********/
 
