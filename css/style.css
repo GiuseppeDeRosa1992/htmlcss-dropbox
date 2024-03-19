@@ -42,7 +42,11 @@ body {
 }
 
 .brd {
-    border: 1px solid black;
+    border: 1px solid gray;
+}
+
+.brd-bottom {
+    border-bottom: 1px solid gray;
 }
 
 h2 {
@@ -91,6 +95,7 @@ h2 {
 
 .bg-blue {
     background-color: #0D2481;
+    padding: 1rem 1.5rem;
 }
 
 .bg-yellow {
@@ -101,17 +106,18 @@ h2 {
     height: 250px;
 }
 
+.btn-blue {
+    color: white;
+    background-color: #0061FF;
+    padding: 1rem 1.5rem;
+}
+
 .debug .header,
 .debug .nav-left,
 .debug .nav-right,
 .debug .jumbotron .column-right,
 .debug .jumbotron .column-left,
-.debug h1,
-.debug .business-content,
-.debug .singolo,
-.debug .team,
-.debug .azienda,
-.debug .enterprise {
+.debug h1 {
     border: 2px dashed black;
 }
 
@@ -169,29 +175,66 @@ section.business {
 
 /*************** SECTION BUSINES/BUSINES CONTENT ************/
 .business h2 {
-    padding-bottom: 2rem;
+    padding: 6rem 0 3rem;
+    font-size: 2.5rem;
 }
 
 .business input {
     margin-bottom: 2rem;
 }
 
-.business-content div {
+.business-content > div {
     width: calc(100% / 3 - 2rem);
     gap: 0.5rem;
 }
 
-.business-content p,
+.business-content .singolo > div,
+.business-content .team > div,
+.business-content .azienda > div,
 .business-content h3,
-.business-content a,
-.business-content h5 {
-    padding: 1rem 0.5rem;
+.business-content p,
+.business-content h5
+ {
+    padding: 1rem 1.5rem;
 }
 
-.enterprise-content p,
-.enterprise-content > .flex,
+.business-content button {
+    position: relative;
+    left: 35px;
+}
+
+.business-content hr {
+    width: 20%;
+    position: relative;
+    left: 2rem;
+}
+
+.azienda .btn-blue {
+    padding: 1rem 4rem;
+}
+
+.business-bottom {
+    padding-top: 2rem;
+}
+
+.enterprise-content > .flex {
+    padding: 1rem 1.5rem;
+}
+
+.enterprise-content .column-left {
+    width: 70%;
+}
+
+.enterprise-content .column-right {
+    width: 25%;
+}
+
 .enterprise-content h5 {
-    padding: 1.5rem 1rem;
+    padding: 1rem 0;
+}
+
+.enterprise-content p {
+    padding: 2rem 0;
 }
 /************** FINE SECTION BUSINESS **********/
 
