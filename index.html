@@ -5,17 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Document</title>
+    <title>Dropbox</title>
 </head>
-<body class="debug">
+<body>
 
     <!-- header con logo e una lista link con un button -->
     <header>
         <div class="header flex jc-between">
             <!-- Barra di navigazione sinistra -->
             <div class="nav-left flex ai-center">
-                <img src="" alt="Logo-dropbox" id="logo">
-                <ul class="flex">
+                <img src="./img/logo-small.png" alt="Logo-dropbox" id="logo">
+                <ul class="flex ai-center">
                     <li>
                         <a href="#">Perchè Dropbox</a>
                     </li>
@@ -29,7 +29,7 @@
             </div>
             <!-- Barra di navigazione destra -->
             <div class="nav-right flex ai-center">
-                <ul class="flex">
+                <ul class="flex ai-center">
                     <li>
                         <a href="#">Supporto</a>
                     </li>
@@ -40,7 +40,7 @@
                         <a href="#">Accedi</a>
                     </li>
                     <li>
-                        <a href="#">Inizia</a>
+                        <button class="btn-blue">Iniza</button>
                     </li>    
                 </ul>
             </div>
@@ -60,7 +60,7 @@
                         </p>
                         <button class="btn-blue">Inizia la tua prova gratuita</button>   
                         <p>Annulla in qualsiasi momento</p>
-                        <i class="fa-solid fa-arrow-down" id=""></i>
+                        <a href="#domande"><i class="fa-solid fa-arrow-down" id=""></i></a>
                     </div>
                     <div class="column-right">
                         <img src="./img/jumbo.png" alt="immagine-jumbo">
@@ -87,11 +87,11 @@
                     </div>
                     <!-- Titolo Sezione -->
                     <h3>Professional</h3>
-                    <p>€ 12.00</p>
+                    <p><b>€ 12.00</b></p>
                     <div class="c-gray">/mese</div>
                     <div>
-                        <span>1 Utente</span>
                         <i class="fa-solid fa-user"></i>
+                        <span>1 Utente</span>
                     </div>
                     <div>
                         <i class="fa-solid fa-folder"></i>
@@ -125,7 +125,7 @@
                     </div>
                     <!-- Titolo Sezione -->
                     <h3>Advanced</h3>
-                    <p>€ 18.00</p>
+                    <p><b>€ 18.00</b></p>
                     <div class="c-gray">/utente/mese</div>
                     <div>
                         <i class="fa-solid fa-user"></i>
@@ -175,7 +175,7 @@
                     </div>
                     <!-- Titolo Sezione -->
                     <h3>Enterprise</h3>
-                    <p>Contattaci</p>
+                    <p><b>Contattaci</b></p>
                     <div class="c-gray">-</div>
                     <div>
                         <i class="fa-solid fa-user"></i>
@@ -187,7 +187,7 @@
                     </div>
                     <div>
                         <i class="fa-solid fa-share-nodes"></i>
-                        <span>Assistenza personalizzata per aiutare gli amministratori in una gestione su larga scala</span>
+                        <span>Assistenza personalizzata per gli amministratori in una gestione su larga scala</span>
                     </div>
                     <button class="btn-blue">Contattaci</button>
                     <div>
@@ -316,16 +316,16 @@
 
         <section class="sponsor flex f-wrap">
             <div class="sponsor-left flex f-wrap">
-                <div class="bg-green h-250">
+                <div class="bg-green h-16">
                     <img src="./img/designit.svg" alt="immagine-designit">
                 </div>
-                <div class="bg-magenta h-250">
+                <div class="bg-magenta h-16">
                     <img src="./img/arizona_state_university.svg" alt="immagine-università-arizona">
                 </div>
-                <div class="bg-dodger h-250">
+                <div class="bg-dodger h-16">
                     <img id="u-florida" src="./img/university_of_florida.svg" alt="immagine-università-florida">
                 </div>
-                <div class="bg-red h-250">
+                <div class="bg-red h-16">
                     <img src="./img/topps.svg" alt="immagine-toops">
                 </div>
             </div>
@@ -342,16 +342,16 @@
                 <address>Morten Thomsen, Global IT Lead</address>
             </div>
             <div class="sponsor-right flex f-wrap">
-                <div class="bg-red h-250">
+                <div class="bg-red h-16">
                     <img src="./img/world_bicycle_relief.svg" alt="immagine-world-bicycle">
                 </div>
-                <div class="bg-l-blue h-250">
+                <div class="bg-l-blue h-16">
                     <img src="./img/hearst_corp.svg" alt="immagine-hearts-corporation">
                 </div>
-                <div class="bg-blue h-250">
+                <div class="bg-blue h-16">
                     <img src="./img/lonely_planet.svg" alt="immagine-lonely-planet">
                 </div>
-                <div class="bg-yellow h-250">
+                <div class="bg-yellow h-16">
                     <img src="./img/clear_channel.svg" alt="immagine-clear-channel">
                 </div>
             </div>
@@ -366,7 +366,7 @@
         </section>
 
         <!-- Sezione domande Frequanti -->
-        <section class="question container-900">
+        <section id="domande" class="question container-900">
             <h2>Domande frequenti</h2>
             <hr>
             <div class="hover">
@@ -513,10 +513,9 @@
             </div>
         </div>
 
-        <hr>
-
         <!-- Footer Bottomo con select lingue -->
         <div class="footer-bottom container-1100">
+            <hr>
             <i class="fa-solid fa-earth-europe"></i>
             <select name="language" id="">
                 <option value="italiano">Italiano</option>
