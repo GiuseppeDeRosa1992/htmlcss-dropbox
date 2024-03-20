@@ -265,7 +265,7 @@ section.business {
 
 /************* SECTION PARTNER *************/
 .partner {
-    padding: var(--lg) 0;
+    padding: var(--xxl) 0;
 }
 
 .partner img {
@@ -312,7 +312,7 @@ section.business {
 }
 
 .dropbox-business-bottom h2 {
-    padding-top: 5rem;
+    padding-top: var(--xxl);
     padding-bottom: var(--lg);
     padding-right: 20rem;
 }
@@ -320,7 +320,7 @@ section.business {
 
 /************** SECTION SPONSOR *******/
 section.sponsor {
-    padding-top: 5rem;
+    padding-top: var(--xxl);
 }
 
 .sponsor-center {
@@ -363,6 +363,16 @@ img#u-florida {
     font-family: sans-serif;
     padding: var(--sm) 0;
 }
+
+.sponsor .h-16:hover{
+    border: var(--xs) solid white;
+}
+
+.h-16:hover img{
+    filter: invert(0);
+    transition: 1s linear;
+    transform: scale(1.1);
+}
 /************** FINE SECTION SPONSOR *******/
 
 /************** SECTION BG BLUE *******/
@@ -392,7 +402,7 @@ section.question {
 }
 
 section.question h2 {
-    padding: 5rem 0;
+    padding: var(--xxl) 0;
 }
 
 section.question > div {
@@ -417,7 +427,7 @@ section.question .d-none {
 footer {
     background-color: black;
     color: white;
-    padding: 5rem 0;
+    padding: var(--xxl) 0;
 }
 
 .footer-top ul {
@@ -439,7 +449,7 @@ footer {
 }
 
 .footer-top {
-    padding-bottom: 5rem;
+    padding-bottom: var(--xxl);
 }
 
 footer hr {
