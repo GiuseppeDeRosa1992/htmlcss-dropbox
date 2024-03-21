@@ -365,13 +365,20 @@ img#u-florida {
 }
 
 .sponsor .h-16:hover{
-    border: var(--xs) solid white;
+    border: 0.5rem solid white;
 }
 
 .h-16:hover img{
     filter: invert(0);
     transition: 1s linear;
     transform: scale(1.1);
+}
+
+@supports (aspect-ratio: 1) {
+    .h-16 {
+        aspect-ratio: 1;
+        height: 50%;
+    }
 }
 /************** FINE SECTION SPONSOR *******/
 
